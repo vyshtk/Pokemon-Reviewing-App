@@ -1,0 +1,75 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\Study\\Core\\PokemonReviewApp\\PokemonReviewApp\\PokemonReviewApp.csproj": {}
+  },
+  "projects": {
+    "E:\\Study\\Core\\PokemonReviewApp\\PokemonReviewApp\\PokemonReviewApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Study\\Core\\PokemonReviewApp\\PokemonReviewApp\\PokemonReviewApp.csproj",
+        "projectName": "PokemonReviewApp",
+        "projectPath": "E:\\Study\\Core\\PokemonReviewApp\\PokemonReviewApp\\PokemonReviewApp.csproj",
+        "packagesPath": "C:\\Users\\vyshnavtk\\.nuget\\packages\\",
+        "outputPath": "E:\\Study\\Core\\PokemonReviewApp\\PokemonReviewApp\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\vyshnavtk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nexus.infra.aws.carestack.com/repository/Carestack.nuget/": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.317\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
